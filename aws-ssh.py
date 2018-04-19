@@ -28,4 +28,4 @@ if __name__ == '__main__':
 
     print(cmd)
     ret = subprocess.call(cmd, shell=True)
-    print('Done, exitcode: ' + ret)
+    print('Done, exitcode: ' + str(ret))
